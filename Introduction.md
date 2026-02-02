@@ -22,14 +22,14 @@ There is no strict set of standard notations for **pseudocode**, but some of the
 
 ## Using pseudocode
 
-**Pseudocode** can be used to plan out programs. Planning a program that asks people what the best subject they take is, would look like this in **pseudocode**:
+**Pseudocode** can be used to plan out programs. Planning a program that asks people what the best subject they take is, would look like this in pseudocode:
 
-- REPEAT
-	- OUTPUT 'What is the best subject you take?'
-	- INPUT user inputs the best subject they take
- 	- STORE the user's input in the answer variable
-	- IF answer = 'Computer Science' THEN
-	  		-	OUTPUT 'Of course it is!'
-	- ELSE
-	  		-	OUTPUT 'Try again!'
-- UNTIL answer = 'Computer Science'
+```text
+REPEAT
+    OUTPUT "What is the best subject you take?"
+    INPUT answer
+    IF answer = "Computer Science" THEN
+        OUTPUT "Of course it is!"
+    ELSE
+        OUTPUT "Try again!"
+UNTIL answer = "Computer Science"
