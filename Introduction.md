@@ -9,18 +9,15 @@ that does not have to use specific syntax.
 ## Common pseudocode notation
 There is no strict set of standard notations for **pseudocode**, but some of the most widely recognised are:
 
-- INPUT – indicates a user will be inputting something
-- OUTPUT – indicates that an output will appear on the screen
-- WHILE – a loop (iteration that has a condition at the beginning)
-- FOR – a counting loop (iteration)
-- REPEAT – UNTIL – a loop (iteration) that has a condition at the end
-- IF – THEN – ELSE – a decision (selection) in which a choice is made
-	_any instructions that occur inside a selection or iteration are usually indented
+- **INPUT** – indicates a user will be inputting something.
+- **OUTPUT** – indicates that an output will appear on the screen.
+- **WHILE** – a loop (iteration that has a condition at the beginning).
+- **FOR** – a counting loop (iteration).
+- **REPEAT – UNTIL** – a loop (iteration) that has a condition at the end.
+- **IF – THEN – ELSE** – a decision (selection) in which a choice is made any instructions that occur inside a selection or iteration are usually indented.
 
 ## Using pseudocode
-Pseudocode can be used to plan out programs. 
-Planning a program that asks people what the best subject they take is, 
-would look like this in **pseudocode**:
+Pseudocode can be used to plan out programs. Planning a program that asks people what the best subject they take is, would look like this in **pseudocode**:
 
 - REPEAT
 _OUTPUT 'What is the best subject you take?'
